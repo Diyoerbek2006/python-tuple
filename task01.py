@@ -1,6 +1,5 @@
 people = [("Ali", 24), ("Laylo", 30), ("Jasur", 39)]
 
-
 def find_oldest_person(people: list[tuple[str, int]]) -> tuple[str, int] | None:
     if len(people) == 0:
         return None
